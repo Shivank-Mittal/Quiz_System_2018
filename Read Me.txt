@@ -1,0 +1,8 @@
+1.) User need to use user name and password to enter as professor 
+	ID="ADMIN"
+	password="PASS"
+
+2.)Create the Database tables with query given in Database.txt
+
+3.)Change configration of Database.properties file according to your h2 database
+ 

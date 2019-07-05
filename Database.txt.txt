@@ -1,0 +1,14 @@
+create table QUESTIONS ( ID int not null auto_increment, QUESTION varchar(50) not null,OPTION_1 varchar(30) ,OPTION_2  varchar(30)  ,OPTION_3  varchar(30)  ,OPTION_4 varchar(30)  , QUIZ_ID  int ,DIFICULTY int,TOPIC varchar(50))
+ 
+ 
+ 
+ Create table ANSWERS (ID int not null auto_increment,QUESTION_ID int,CORRECT_OPTION int)
+ 
+ 
+ 
+ Create table QUIZ(ID int not null auto_increment, QUIZ_NAME  varchar(30) ) 
+ 
+ 
+ 
+ create STUDENTS (STUDENT_NAME varchar(50), QUIZ_ATTEMTED varchar(50),MARKS_OBTAINED int)
+ 
